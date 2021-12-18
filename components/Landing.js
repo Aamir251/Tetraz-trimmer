@@ -1,5 +1,8 @@
 import Image from "next/image";
 import background from "../public/images/background.jpg";
+import backgroundRemoved from "../public/images/bg-removed.png"
+import fog from "../public/images/fog.png";
+
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
 
@@ -61,8 +64,11 @@ function Landing() {
 
 
     return (<div className="landing relative">
-    <div ref={el => imgRef = el } className="absolute">
-      <Image src={background} alt="tetra trimmer" layout="responsive" priority={true}/>
+    <div ref={el => imgRef = el } className="absolute trimmer">
+      <Image src={backgroundRemoved} alt="tetra trimmer" layout="responsive" priority={true}/>
+    </div>
+    <div className="absolute fog">
+      <Image src={fog} alt="tetra trimmer" layout="responsive" priority={true}/>
     </div>
       <h1 className="absolute">
           <div className="outer">

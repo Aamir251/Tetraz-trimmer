@@ -1,4 +1,52 @@
 section.perfection {
   
+    height: 100vh;
+}
 
+.perfection h2 {
+    left: 15vw;
+    font-size: 3rem;
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+}
+
+.perfection p {
+    width: 280px;
+    font-size: 1.1rem;
+    right: 10vw;
+    top: 40vh;
+    line-height: 1.7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+
+.perfection .img-container {
+    width: 30vw;
+    left: 30vw;
+    top: 45vh;
+}
+.perfection .img-container img {
+    z-index: -1;
+}
+.img-container .cover {
+    width: 30vw;
+    height: 100%;
+    background-color: var(--bg-primary);
+    top: 5;
+}
+
+.perfection h3 {
+    bottom: 30px;
+    font-size: 2.5rem;
+    left: 10vw;
+    letter-spacing: 0.08em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    color: var(--text-primary);
+}
+
+
+.perfection h3 span {
+    padding-left: 0.5rem;
 }

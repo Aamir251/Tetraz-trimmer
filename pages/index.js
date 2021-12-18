@@ -1,4 +1,5 @@
 import Landing from "../components/Landing";
+import Landing2 from "../components/Landing2";
 import Perfection from "../components/Perfection";
 
 
@@ -15,7 +16,11 @@ export default function Home() {
 
       <main>
         <Landing />
+        {/* <Landing2 /> */}
         <Perfection />
+        <div style={{height : "100vh"}} >
+
+        </div>
       </main>
 
     </>

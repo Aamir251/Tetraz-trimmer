@@ -1,0 +1,21 @@
+.landing2 {
+    height: 100vh;
+    border: 1px solid gray;
+}
+
+.landing2 div.absolute {
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+.landing2 .bg {
+    margin-top: 20vh;
+    width: 500px;
+    z-index: 2;
+}
+
+.landing2 .gradient {
+    width: 400px;
+    margin-top: 30vh;
+    z-index: -5;
+}

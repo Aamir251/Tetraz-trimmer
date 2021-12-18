@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100;200;300;400;500&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,29 +14,28 @@
 body {
     background-color: var(--bg-primary);
     color: var(--text-primary);
+    overflow-x: hidden;
 }
 main {
     height: min-content;
-    height: 100vh;
     width: 100vw;
-    overflow-x: hidden;
+
 }
 main .landing {
-  height: 125vh
+  height: 120vh
 }
-.landing div.absolute {
-    width: 70%;
-    margin-top: -10vh;
-    transform: translate(-60%);
-    left: 60%;
-    z-index: -1;
-}
-.landing img {
-    max-width: 20vw;
-    opacity: 0.4;
-    
+.landing div.trimmer {
+    width: 50%;
+    margin-top: 15vh;
+    left: 25%;
 }
 
+.landing .fog {
+  width: 100%;
+  left: -10%;
+  bottom: -5rem;
+  z-index: -5;
+}
 .outer {
   overflow-y: hidden;
   display: inline-block;
